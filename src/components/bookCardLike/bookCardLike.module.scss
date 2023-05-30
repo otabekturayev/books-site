@@ -1,0 +1,36 @@
+.bookCard{
+    width: 288px;
+    height: 119px;
+    background: var(--body-aside-card);
+    padding: 10px 14px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    .bookCardInner{
+        display: flex;
+        gap: 25px;
+        align-items: center;
+        .bookImg{
+            img{
+                width: 75px;
+                height: 99px;
+            }
+        }
+        .bookInfo{
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            .bookName{
+                font-weight: 500;
+                font-size: 20px;
+                color: var(--body-text-color);
+            }
+            .author{
+                font-size: 15px;
+                color: var(--body-text-color);
+            }
+            .like{
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+header{
+    width: 100%;
+    border: 1px solid var(--body-header-border);
+    nav{
+        background: var(--body-bgLight-color);
+        .container{
+            max-width: 1312px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px 0;
+            .logo{
+                cursor: pointer;
+            }
+            .headerRight{
+                display: flex;
+                align-items: center;
+                gap: 30px;
+                .luna{
+                    cursor: pointer;
+                }
+                .btn{
+                    width: 140px;
+                    height: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: var(--body-bg-green);
+                    border-radius: 6px;
+                    font-weight: 600;
+                    font-size: 16px;
+                    color: #FFFFFF;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

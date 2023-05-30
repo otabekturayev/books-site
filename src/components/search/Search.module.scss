@@ -1,0 +1,31 @@
+
+.search{
+    background: var(--body-bgLight-color);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    max-width: 890px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 32px;
+    align-items: center;
+    margin: 0 auto 56px;
+    input{
+        font-size: 20px;
+        color: var(--body-text-green);
+        background-color: transparent;
+        width: 600px;
+        
+    }
+    input::placeholder{
+        color: var(--body-text-green);
+    }
+    .searchBtn{
+        cursor: pointer;
+        svg{
+            path{
+                fill: var(--body-text-green)
+            }
+        }
+    }
+}

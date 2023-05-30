@@ -1,0 +1,17 @@
+.sideBar{
+    width: 342px;
+    height: 100vh;
+    background: var(--body-bgLight-color);
+    padding: 50px 27px;
+    overflow-y: scroll;
+    p{
+        font-weight: 600;
+        font-size: 28px;
+        width: 288px;
+        color: var(--body-aside-h1);
+        margin-bottom: 40px;
+    }
+}
+.sideBar::-webkit-scrollbar{
+    display: none;
+}

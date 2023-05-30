@@ -1,0 +1,79 @@
+.card{
+    width: 237px;
+    height: 460px;
+    padding: 16px 24px;
+    background: var(--body-bgLight-color);
+    border-radius: 10px;
+    .cardInner{
+        display: flex;
+        flex-direction: column;
+        height: 428px;
+        position: relative;
+        .bookImg{
+            margin-bottom: 19px;
+            img{
+                width: 189px;
+                height: 260px;
+            }
+        }
+        .bookName{
+            font-size: 20px;
+            color: var(--body-text-color);
+            line-height: 128.52%;
+            margin-bottom: 5px;
+        }
+        .author{
+            font-size: 16px;
+            color: var(--body-text-green);
+            margin-bottom: 5px;
+        }
+        .ratingLike{
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            .rating{
+                font-size: 14px;
+                color: var(--body-card-rate);
+                span{
+                    color: var(--body-card-span);
+                }
+            }
+            .like{
+                cursor: pointer;
+                .likeWhite{
+                    svg{
+                        path{
+                            stroke: var(--body-text-color)
+                        }
+                    }
+                }
+            }
+        }
+        .btns{
+            display: flex;
+            position: absolute;
+            bottom: 0;
+            .infoBtn{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: var(--body-text-color);
+                width: 86px;
+                height: 25px;
+                border-radius: 5px;
+                color: var(--body-cardBtn-text);
+                margin-right: 17px;
+                cursor: pointer;
+            }
+            .readBtn{
+                background: var(--body-bg-green);
+                width: 86px;
+                height: 25px;
+                border: none;
+                border-radius: 5px;
+                color: #F8FAFC;
+                cursor: pointer;
+            }
+        }
+    }
+}

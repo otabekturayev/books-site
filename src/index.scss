@@ -1,0 +1,39 @@
+:root{
+    --body-bg-color: #F3F3F7;
+    --body-bgLight-color: #FFFFFF;
+    --body-bg-green: #41B64D;
+    --body-text-green: #41B64D;
+    --body-text-color: #2B3844;
+    --body-label-text: #ACB6BE;
+    --body-aside-h1: #212B36;
+    --body-aside-card: #41b64d47;
+    --body-card-rate: #4D4D4D;
+    --body-card-span: #A7A7A7;
+    --body-cardBtn-text: #F8FAFC;
+    --body-infoContact-p: #333333;
+    --body-infoP-text: #9A9A9A;
+    --body-rate-red: #4D4D4D;
+    --body-error-bg: #FFFFFF;
+    --body-header-border: #E4E4E4;
+    --body-infoPage-icon: #000000;
+}
+
+body.dark{
+    --body-bg-color: #202C36;
+    --body-error-bg: #202C36;
+    --body-bgLight-color: #2B3844;
+    --body-bg-green: #F27851;
+    --body-text-green: #F27851;
+    --body-text-color: #FFFFFF;
+    --body-label-text: #FFFFFF;
+    --body-aside-h1: #FFFFFF;
+    --body-aside-card: #f2795184;
+    --body-card-rate: #FFFFFF;
+    --body-card-span: #FFFFFF;
+    --body-cardBtn-text: #F27851;
+    --body-infoContact-p: #FFFFFF;
+    --body-infoP-text: #FFFFFF;
+    --body-rate-red: #F27851;
+    --body-header-border: #2B3844;
+    --body-infoPage-icon: #FFFFFF;
+}

@@ -1,0 +1,22 @@
+
+main{
+    background: var(--body-bg-color);
+    display: flex;
+    .mainRight{
+        padding: 39px;
+        width: 75%;
+        min-height: 100vh;
+        overflow-y: scroll;
+        max-height: 100vh;
+        .bookCards{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px;
+            margin: 0 auto;
+        }
+    }
+    .mainRight::-webkit-scrollbar{
+        display: none;
+    }
+}
+

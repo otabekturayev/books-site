@@ -1,0 +1,273 @@
+
+.wrapper{
+    background: var(--body-bg-color);
+    padding: 44px 0;
+    .wrapperInner{
+        max-width: 1360px;
+        margin: 0 auto;
+        .prevBtn{
+            height: 20px;
+            display: flex;
+            gap: 13px;
+            background-color: transparent;
+            margin-bottom: 40px;
+            cursor: pointer;
+            svg{
+                path{
+                    stroke: var(--body-card-rate)
+                }
+            }
+            span{
+                font-size: 15px;
+                color: var(--body-text-color);
+            }
+        }
+        .bookInfo{
+            display: flex;
+            gap: 76px;
+            margin-bottom: 70px;
+            .bookiInfoLeft{
+                width: 273px;
+                height: 405px;
+                background: var(--body-bgLight-color);
+                border-radius: 10px;
+                padding: 24px 32px 31px;
+                .bookPhoto{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .bookImg{
+                        margin-bottom: 35px;
+                        img{
+                            width: 209px;
+                            height: 277px;
+                        }
+                    }
+                    .contact{
+                        display: flex;
+                        gap: 31px;
+                        align-items: baseline;
+                        div{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            gap: 7px;
+                            cursor: pointer;
+                            div{
+                                svg{
+                                    path{
+                                        fill: var(--body-infoPage-icon)
+                                    }
+                                }
+                            }
+                            p{
+                                font-weight: 700;
+                                font-size: 11px;
+                                color: var(--body-infoContact-p);
+                            }
+                        }
+                    }
+                }
+            }
+            .bookiInfoMiddle{
+                .title{
+                    font-size: 35px;
+                    line-height: 128.52%;
+                    color: var(--body-text-color);
+                    margin-bottom: 18px;
+                }
+                .author{
+                    font-size: 15px;
+                    color: var(--body-text-color);
+                    margin-bottom: 5px;
+                    .authorName{
+                        text-decoration: underline;
+                    }
+                }
+                .editionNumber{
+                    font-size: 15px;
+                    color: var(--body-infoP-text);
+                    margin-bottom: 22px;
+                }
+                .rate{
+                    display: flex;
+                    gap: 10px;
+                    margin-bottom: 30px;
+                    .rateStar{
+                        img{
+                            margin-right: 3px;
+                        }
+                    }
+                    .rateNumber{
+                        font-size: 14px;
+                        font-weight: 500;
+                        color: var(--body-text-color);
+                        margin-right: 9px;
+                    }
+                    .reading{
+                        font-size: 14px;
+                        font-weight: 500;
+                        color: var(--body-text-color);
+                    }
+                }
+                .checkBook{
+                    display: flex;
+                    gap: 45px;
+                    margin-bottom: 43px;
+                    .check{
+                        p{
+                            font-weight: 700;
+                            font-size: 14px;
+                            color: var(--body-text-color);
+                            margin-bottom: 11px;
+                        }
+                        div{
+                            margin-top: 8px;
+                            display: flex;
+                            gap: 8px;
+                            align-items: center;
+                            svg{
+                                path{
+                                    fill: var(--body-bg-green);
+                                }
+                            }
+                            span{
+                                font-size: 15px;
+                                color: var(--body-text-color);
+                            }
+                        }
+                    }
+                    .status{
+                        p{
+                            font-weight: 700;
+                            font-size: 14px;
+                            color: var(--body-text-color);
+                            margin-bottom: 11px;
+                        }
+                        button{
+                            width: 85px;
+                            height: 26px;
+                            border: none;
+                            background: #42BB4E;
+                            border-radius: 5px;
+                            font-size: 15px;
+                            color: #FFFFFF;
+                            margin-bottom: 13px;
+                            cursor: pointer;
+                        }
+                        div{
+                            display: flex;
+                            gap: 8px;
+                            align-items: center;
+                            span{
+                                font-size: 15px;
+                                color: var(--body-text-color);
+                            }
+                        }
+                    }
+                }
+                .btns{
+                    display: flex;
+                    gap: 38px;
+                    .borrowBtn{
+                        width: 209px;
+                        height: 61px;
+                        background: #F27851;
+                        border-radius: 5px;
+                        font-weight: 600;
+                        font-size: 20px;
+                        color: #FFFFFF;
+                        text-transform: uppercase;
+                        cursor: pointer;
+                    }
+                    .readListenBtns{
+                        display: flex;
+                        gap: 1px;
+                        .readBtn{
+                            height: 61px;
+                            width: 142px;
+                            font-weight: 700;
+                            font-size: 20px;
+                            color: #FFFFFF;
+                            background: #41B64D;
+                            border-radius: 5px 0 0 5px;
+                            cursor: pointer;
+                        }
+                        .listenBtn{
+                            width: 66px;
+                            height: 61px;
+                            background: #41B64D;
+                            border-radius: 0 5px 5px 0;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+            .bookiInfoRight{
+                max-width: 445px;
+                height: max-content;
+                background: var(--body-bgLight-color);
+                border-radius: 10px;
+                padding: 30px;
+                .bookiInfoRightTop{
+                    display: flex;
+                    justify-content: space-between;
+                    .topLeft{
+                        .authorTittle{
+                            font-weight: 600;
+                            font-size: 24px;
+                            color: var(--body-text-color);
+                            margin-bottom: 20px;
+                            span{
+                                color: var(--body-text-green)
+                            }
+                        }
+                        .authorSurname{
+                            font-size: 20px;
+                            color: var(--body-text-color);
+                        }
+                    }
+                }
+                .bookiInfoRightBottom{
+                    font-size: 15px;
+                    color: var(--body-text-color);
+                }
+            }
+        }
+        .description{
+            max-width: 1360px;
+            background: var(--body-bgLight-color);
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 90px;
+            p{
+                font-weight: 600;
+                font-size: 24px;
+                color: var(--body-text-green);
+                margin-bottom: 30px;
+            }
+            .text{
+                font-size: 16px;
+                line-height: 128.52%;
+                color: var(--body-text-color);
+            }
+        }
+        .otherBooks{
+            p{
+                font-weight: 700;
+                font-size: 28px;
+                color:var(--body-text-color);
+                margin-bottom: 30px;
+                span{
+                    color:var(--body-text-green)
+                }
+            }
+            .bookCards{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 36px;
+                
+            }
+        }
+    }
+}

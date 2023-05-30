@@ -1,0 +1,39 @@
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: var(--body-error-bg);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .errorNumber{
+        font-weight: 700;
+        font-size: 100px;
+        color: var(--body-text-color);
+        margin-bottom: 10px;
+    }
+    .errorText1{
+        font-weight: 600;
+        font-size: 22px;
+        color: var(--body-text-color);
+        margin-bottom: 12px;
+    }
+    .errorText2{
+        font-size: 18px;
+        color: var(--body-text-color);
+        margin-bottom: 35px;
+    }
+    .btn{
+        width: 160px;
+        height: 50px;
+        border: 1px solid var(--body-bg-green);
+        border-radius: 7px;
+        font-weight: 600;
+        font-size: 16px;
+        color: var(--body-text-green);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
